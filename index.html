@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Flamingo 🦩</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- INTRO SCREEN -->
+    <section id="intro" class="screen">
+        <div class="intro-content">
+
+            <div class="flamingo intro-flamingo">🦩</div> 
+
+            <p class="small-text">A little something for</p>
+
+            <h1><h1>My Flamingo <span class="heart">♥</span></h1></h1>
+
+            <p class="intro-message">
+                Before you come in...<br>
+                there's something I need to hear.
+            </p>
+
+           <div class="magic-box">
+    <p class="magic-title">Our Magic Words ✨</p>
+
+    <p class="magic-subtitle">
+        Some things are better when you type them yourself.
+    </p>
+
+    <input
+        type="text"
+        id="magicInput"
+        class="magic-input"
+        placeholder="Type the magic words..."
+        autocomplete="off"
+    >
+
+    <button class="magic-button" onclick="checkMagicWord()">
+        Unlock My Surprise →
+    </button>
+
+    <p id="listeningText"></p>
+</div>
+
+        </div>
+    </section>
+
+
+    <!-- SUCCESS SCREEN -->
+    <section id="success" class="screen hidden">
+        <div class="success-content">
+
+            <div class="flamingo">🦩</div>
+
+            <h1>Magic words accepted. ✨</h1>
+
+            <p>I knew you couldn't resist me. 😂</p>
+
+            <button class="main-button" onclick="enterSite()">
+                Come in, Pookie →
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- MAIN WEBSITE -->
+    <main id="mainSite" class="hidden">
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <p class="small-text">For the girl who made my heart red and full of love again...</p>
+
+            <h1>Maryam.</h1>
+
+            <h2>My Flamingo.</h2>
+
+            <p class="nicknames">
+                My Pookie. My Baby Boo.
+            </p>
+
+            <div class="scroll-text">
+                ↓ There's a lot I want you to see.
+            </div>
+
+        </section>
+
+
+        <!-- OUR STORY -->
+        <section class="section">
+
+            <p class="section-label">HOW THIS SOMEHOW HAPPENED</p>
+
+            <h2>Our Story</h2>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <span>August</span>
+                    <h3>It started somehow...</h3>
+                    <p>
+                        Your cousin Imam was the reason our paths crossed.
+                        And honestly, you weren't even interested in talking to me.
+                    </p>
+                </div>
+
+                <div class="timeline-item">
+                    <span>The Snapchat Era</span>
+                    <h3>You almost didn't add me 😂</h3>
+                    <p>
+                        Imam somehow convinced you to at least add me back
+                        on Snapchat. And somehow... that was enough.
+                    </p>
+                </div>
+
+                <div class="timeline-item">
+                    <span>Then we started talking</span>
+                    <h3>And things just clicked.</h3>
+                    <p>
+                        You weren't exactly interested at first,
+                        but our conversations kept getting better.
+                        I was clear about my intentions from the beginning.
+                    </p>
+                </div>
+
+                <div class="timeline-item">
+                    <span>About a week later</span>
+                    <h3>We finally met.</h3>
+                    <p>
+                        And somehow everything just felt right.
+                        We got along, had a good time,
+                        and the rest... well, you know the story. ❤️
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- THINGS I LOVE -->
+        <section class="section love-section">
+
+            <p class="section-label">A FEW OF THE MANY THINGS</p>
+
+            <h2>Things I Love About You</h2>
+
+            <div class="love-grid">
+
+                <div class="love-card">
+                    <span>01</span>
+                    <h3>Your smile</h3>
+                    <p>Yeah... that smile gets me every time.</p>
+                </div>
+
+                <div class="love-card">
+                    <span>02</span>
+                    <h3>Your eyes</h3>
+                    <p>I could honestly just stare at them.</p>
+                </div>
+
+                <div class="love-card">
+                    <span>03</span>
+                    <h3>Your voice</h3>
+                    <p>Especially when you call me baby.</p>
+                </div>
+
+                <div class="love-card">
+                    <span>04</span>
+                    <h3>Your nose</h3>
+                    <p>Yes. Your nose. Don't question me. 😂</p>
+                </div>
+
+                <div class="love-card">
+                    <span>05</span>
+                    <h3>The way you love</h3>
+                    <p>You can be so loving and I absolutely adore it.</p>
+                </div>
+
+                <div class="love-card">
+                    <span>06</span>
+                    <h3>Your patience</h3>
+                    <p>You have been patient with me in ways I appreciate.</p>
+                </div>
+
+                <div class="love-card">
+                    <span>07</span>
+                    <h3>Every little thing</h3>
+                    <p>Honestly, I love more about you than I can put here.</p>
+                </div>
+
+                <div class="love-card">
+                    <span>08</span>
+                    <h3>How annoying you are 😂</h3>
+                    <p>Sometimes. Just sometimes. But I still love you.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MEMORIES -->
+       <section class="section memories-section">
+
+    <p class="section-label">OUR LITTLE ADVENTURES</p>
+
+    <h2>Little Moments,<br>Big Memories.</h2>
+
+    <p class="memory-intro">
+        Some of these moments might seem small,
+        but they're some of the ones I wouldn't trade for anything.
+    </p>
+
+    <div class="memory-grid">
+
+        <div class="memory-card">
+            <div class="memory-number">01</div>
+
+            <div class="memory-icon">🧋</div>
+
+            <h3>The Boba Date</h3>
+
+            <p>
+                The first day I took you out.
+                One of the first little memories that became ours.
+            </p>
+
+            <span class="memory-caption">
+                First date energy.
+            </span>
+        </div>
+
+
+        <div class="memory-card">
+            <div class="memory-number">02</div>
+
+            <div class="memory-icon">🎢</div>
+
+            <h3>Magic Land</h3>
+
+            <p>
+                You made me go on the ride I was most scared of.
+                I survived... and somehow actually enjoyed it.
+            </p>
+
+            <span class="memory-caption">
+                You really had no mercy. 😂
+            </span>
+        </div>
+
+
+        <div class="memory-card">
+            <div class="memory-number">03</div>
+
+            <div class="memory-icon">🍕</div>
+
+            <h3>Pizza</h3>
+
+            <p>
+                Our first actual food date.Nothing too complicated.
+                Just good food, sweet loving company, you feeding me and me feeding you. Good times...
+            </p>
+
+            <span class="memory-caption">
+                Simple moments matter.
+            </span>
+        </div>
+
+
+        <div class="memory-card">
+            <div class="memory-number">04</div>
+
+            <div class="memory-icon">📚</div>
+
+            <h3>The H-Medix Mission</h3>
+
+            <p>
+                We went looking for a book and somehow
+                even that became something worth remembering.
+                Even tho we didn't get the book...
+            </p>
+
+            <span class="memory-caption">
+                We were actually looking for a book. 😂
+            </span>
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- FIRST KISS -->
+        <section class="section kiss-section">
+
+            <p class="section-label">IMPORTANT HISTORICAL DISPUTE</p>
+
+            <h2>The First Kiss</h2>
+
+            <div class="kiss-box">
+
+                <p class="big-question">
+                    Who kissed who first?
+                </p>
+
+                <div class="arguments">
+
+                    <div>
+                        <span>Maryam's version</span>
+                        <p>"I kissed you first."</p>
+                    </div>
+
+                    <div>
+                        <span>Usman's version</span>
+                        <p>"It was staged, That's not what happened." 😂</p>
+                    </div>
+
+                </div>
+
+                <p class="kiss-ending">
+                    The truth may never be known...
+                    but I'm keeping my version. ❤️
+                </p>
+
+            </div>
+
+        </section>
+
+<!-- OUR MOMENTS -->
+<section class="section moments-section">
+
+    <p class="section-label">OUR LITTLE WORLD</p>
+
+    <h2>A Few Of My Favourite Moments With You.</h2>
+
+    <p class="moments-intro">
+        Just some pictures I never get tired of looking at.
+    </p>
+
+
+    <div class="photo-wall">
+
+        <div class="photo-item photo-large">
+            <img src="images/1.jpg" alt="Usman and Maryam">
+        </div>
+
+        <div class="photo-item">
+            <img src="images/2.jpg" alt="Usman and Maryam">
+        </div>
+
+        <div class="photo-item">
+            <img src="images/3.jpg" alt="Usman and Maryam">
+        </div>
+
+        <div class="photo-item photo-tall">
+            <img src="images/4.jpg" alt="Usman and Maryam">
+        </div>
+
+        <div class="photo-item">
+            <img src="images/5.jpg" alt="Usman and Maryam">
+        </div>
+
+        <div class="photo-item">
+            <img src="images/6.jpg" alt="Usman and Maryam">
+        </div>
+
+        <div class="photo-item photo-wide">
+            <img src="images/7.jpg" alt="Usman and Maryam">
+        </div>
+
+        <div class="photo-item">
+            <img src="images/8.jpg" alt="Usman and Maryam">
+        </div>
+
+    </div>
+
+
+    <div class="you-section">
+
+        <p class="section-label">AND THEN THERE'S YOU...</p>
+
+        <h3>My Beautiful Flamingo.</h3>
+
+        <p class="you-intro">
+            Because obviously, I couldn't make this without
+            having a little section dedicated to you.
+        </p>
+
+        <div class="her-photos">
+
+            <div class="her-photo">
+                <img src="images/9.jpg" alt="Maryam">
+            </div>
+
+            <div class="her-photo">
+                <img src="images/10.jpg" alt="Maryam">
+            </div>
+
+            <div class="her-photo featured-her-photo">
+                <img src="images/11.jpg" alt="Maryam">
+            </div>
+
+            <div class="her-photo">
+                <img src="images/12.jpg" alt="Maryam">
+            </div>
+
+            <div class="her-photo">
+                <img src="images/13.jpg" alt="Maryam">
+            </div>
+
+        </div>
+
+        <p class="you-ending">
+            I really don't think you understand how beautiful you are. ❤️
+        </p>
+
+    </div>
+
+</section>
+        <!-- SOUNDTRACK -->
+        <section class="section soundtrack">
+
+    <p class="section-label">OUR SOUNDTRACK</p>
+
+    <h2>Songs That Feel Like Us</h2>
+
+    <p class="music-intro">
+        A few songs that somehow remind me of you.
+    </p>
+
+    <div class="song-list">
+
+        <div class="song music-card" onclick="selectSong(this)" data-link="https://www.youtube.com/results?search_query=Rihanna+Kiss+It+Better"></div>
+            <div class="song-number">01</div>
+
+            <div class="song-info">
+                <p>Rihanna — Kiss It Better</p>
+                <span>For the late-night feelings.</span>
+            </div>
+
+            <div class="play-button">▶</div>
+        </div>
+
+
+        <div class="song music-card" onclick="selectSong(this)" data-link="https://www.youtube.com/results?search_query=Doja+Cat+Streets"></div>
+            <div class="song-number">02</div>
+
+            <div class="song-info">
+                <p>Doja Cat — Streets</p>
+                <span>Because... you know. 😂</span>
+            </div>
+
+            <div class="play-button">▶</div>
+        </div>
+
+
+        <div class="song music-card" onclick="selectSong(this)" data-link="https://www.youtube.com/results?search_query=Lauv+I+Like+Me+Better"></div>
+            <div class="song-number">03</div>
+
+            <div class="song-info">
+                <p>Lauv — I Like Me Better</p>
+                <span>This one just feels right.</span>
+            </div>
+
+            <div class="play-button">▶</div>
+        </div>
+
+
+        <div class="song music-card" onclick="selectSong(this)" data-link="https://www.youtube.com/results?search_query=Ariana+Grande+One+Last+Time"></div>
+            <div class="song-number">04</div>
+
+            <div class="song-info">
+                <p>Ariana Grande — One Last Time</p>
+                <span>One of our little soundtrack moments.</span>
+            </div>
+
+            <div class="play-button">▶</div>
+        </div>
+
+    </div>
+
+    <p id="songMessage"></p>
+
+</section>
+
+        <!-- FINAL LETTER -->
+        <section class="section letter-section">
+
+    <p class="section-label">A LITTLE SOMETHING FROM ME</p>
+
+    <div class="letter">
+
+        <div class="letter-heart">♥</div>
+
+        <h2>My Flamingo,</h2>
+
+        <p>
+            I'm so sorry for the past events and the things
+            that have happened to you.
+        </p>
+
+        <p>
+            I know saying sorry doesn't magically fix everything,
+            but I want you to know that I mean it.
+        </p>
+
+        <p>
+            This little website is just something I thought of
+            making for you. It's not much, but I wanted to give
+            you something that came directly from me.
+        </p>
+
+        <p>
+            I hope it makes you smile, even just a little.
+            And I hope it reminds you that you are loved,
+            appreciated, and very special to me.
+        </p>
+
+        <p>
+            I love your smile, your eyes, your voice,
+            your nose, the way you call me baby,
+            and honestly... every little thing about you.
+        </p>
+
+        <p>
+            I love how loving you can be.
+            I love how patient you are.
+            And yes, I even love how annoying you can be sometimes. 😂
+        </p>
+
+        <p>
+            I appreciate every little memory we've made so far —
+            from our first boba date, to Magic Land,
+            to our pizza date, to our little H-Medix mission.
+        </p>
+
+        <p>
+            And I'm looking forward to all the memories
+            we haven't made yet.
+        </p>
+
+        <p class="forever">
+            I love you, My Flamingo.
+        </p>
+
+        <p class="forever">
+            Now and forever. ❤️
+        </p>
+
+        <p class="signature">
+            Your Yiddo am,<br>
+            Boo Bear 🦩
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- FINAL QUESTION -->
+<section class="final-section">
+
+    <div class="flamingo">🦩</div>
+
+    <p class="section-label">ONE LAST THING</p>
+
+    <h2>Maryam...</h2>
+
+    <p class="final-question">
+        Will you always be<br>
+        my Flamingo?
+    </p>
+
+    <div class="final-buttons">
+
+        <button onclick="answerYes()">
+            YES ❤️
+        </button>
+
+        <button onclick="answerObviously()">
+            OBVIOUSLY 🙄
+        </button>
+
+    </div>
+
+    <p id="finalAnswer"></p>
+
+</section>
+<!-- MARYAM FINAL SECTION -->
+<section class="maryam-final">
+
+    <div class="maryam-final-content">
+
+        <p class="maryam-final-small">
+            Before you leave...
+        </p>
+
+        <h2>
+            There's one more thing<br>
+            I want you to know.
+        </h2>
+
+        <details class="maryam-reveal">
+
+            <summary>
+                Open this ❤️
+            </summary>
+
+            <div class="maryam-final-message">
+
+                <p>Maryam,</p>
+
+                <p>
+                    I don't know if I've always found the right words to show you,
+                    but I hope this does a little of that for me.
+                </p>
+
+                <p>
+                    I know we've been fighting lately, and honestly, I hate that
+                    things have felt this way between us. I don't want a disagreement,
+                    a misunderstanding, or a bad moment to make you forget how much
+                    you mean to me.
+                </p>
+
+                <p>
+                    I'm not putting this here to prove who's right or who's wrong.
+                    I just want you to know that, despite everything, I still care
+                    about you deeply.
+                </p>
+
+                <p>
+                    You're someone I don't want to lose over temporary moments.
+                </p>
+
+                <p>
+                    I want you to feel loved. I want you to feel appreciated.
+                    I want you to know that you matter to me, even on the days
+                    when we don't see eye to eye.
+                </p>
+
+                <p>
+                    And if there are days when things get difficult, I hope we can
+                    always find our way back to each other.
+                </p>
+
+                <p>
+                    Because underneath all the arguments, the teasing, the
+                    stubbornness, and everything else that comes with us...
+                </p>
+
+                <p class="special-line">
+                    there's still you.
+                </p>
+
+                <p class="special-line">
+                    And there's still me.
+                </p>
+
+                <p class="special-line">
+                    And I still choose to care.
+                </p>
+
+                <p class="special-line">
+                    Even if maybe you don't, I do.
+                </p>
+
+                <div class="maryam-final-ending">
+
+                    <p>
+                        So if you've ever wondered whether you mean something to me,
+                        I hope this website gives you your answer.
+                    </p>
+
+                    <h3>You do.</h3>
+
+                    <p>More than I probably say.</p>
+
+                    <strong>Yours Truely, Yiddo am ❤️</strong>
+
+                </div>
+
+            </div>
+
+        </details>
+
+    </div>
+
+</section>
+
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
